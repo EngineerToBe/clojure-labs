@@ -1,0 +1,58 @@
+#+TITLE: Clojure Crash Course From Scratch
+
+When I started learning clojure I found it very difficult to understand the language terminologies.
+It might not be the case with others. I will try to make sure that this tutorial should be for the
+beginners may be Students who wants to try out the Clojure.
+
+Note:- I am noit Clojure expert so if you see a bug please correct me.
+
+* What is Clojure?
+
+Clojure is a Functional Programming language written by Rich Hickey. Clojure is a List Dialect.
+Clojure is a hosted Language which means it runs on top of JVM (Java Virtual Machine).
+
+
+   - JVM processes execute Java bytecode.
+   - Usually, the Java Compiler produces Java bytecode from Java source code.
+   - JAR files are collections of Java bytecode.
+   - Java programs are usually distributed as JAR files.
+   - The Java program clojure.jar reads Clojure source code and produces Java bytecode.
+   - That Java bytecode is then executed by the same JVM process already running clojure.jar.
+
+
+* Leiningen
+
+Defacto clojure dependency, build tool. We will see some of the lein commands which are very handy.
+
+To create a new Clojure project
+
+#+begin_src clojure
+lein new app clojurebasics
+#+end_src
+
+To run a project and do a quick testing
+
+#+begin_src clojure
+lein run
+#+end_src
+
+To create a uberjar
+
+#+begin_src clojure
+lein uberjar
+#+end_src
+
+To run the created uber jar
+
+#+begin_src clojure
+java -jar target/uberjar/clojurebasics-0.1.0-SNAPSHOT-standalone.jar
+#+end_src
+
+
+To connect the REPL (READ, EVAL, PRINT, LOOP)
+
+#+begin_src clojure
+lein repl
+#+end_src
+
+There are many more lein commands to learn. Please check out the Lein Official website for it.
