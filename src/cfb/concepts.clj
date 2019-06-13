@@ -62,8 +62,12 @@
 
 (and "Hello!" "World")
 
-;; and always return the first falsey value else the last value.
+;; and always return the first falsey value else the last truthy value.
 
 (or "Hello" "World")
 
-;; or always return the first truthy value else the last falsey value.
+;; or always return the first truthy value else the last value.
+
+;; to bind a name to value in Clojure we use "def"
+
+(def name ["abhishek"])
