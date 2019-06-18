@@ -1,4 +1,4 @@
-(ns cfb.cb.core)
+(ns cfb.core)
 
 ;; This is how you do comment in Clojure.
 ;; s-expression with prefix notation

@@ -1,4 +1,4 @@
-(ns cfb.cb.arithmatic)
+(ns cfb.arithmatic)
 
 ;; Arithmatic Operations
 

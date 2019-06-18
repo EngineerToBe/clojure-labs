@@ -1,4 +1,4 @@
-(ns cfb.higherorderfunction.clj)
+(ns cfb.higherorderfunction)
 
 ;; an example of map how map literal looks like
 
