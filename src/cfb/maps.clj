@@ -1,4 +1,4 @@
-(ns cfb.datastruct.maps)
+(ns cfb.maps)
 
 ;; Clojure Maps
 

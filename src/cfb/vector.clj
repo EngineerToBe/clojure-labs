@@ -1,4 +1,4 @@
-(ns cfb.datastruct.vector)
+(ns cfb.vector)
 
 (comment
   ;;Vectors in Clojure are similar to arrays in other languages.

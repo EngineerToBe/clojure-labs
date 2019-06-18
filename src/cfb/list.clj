@@ -1,4 +1,4 @@
-(ns cfb.datastruct.list)
+(ns cfb.list)
 
 ;;Lists in Clojure and some operations that can be performed on List
 

@@ -1,4 +1,4 @@
-(ns cfb.datastruct.sets)
+(ns cfb.sets)
 ;; Clojure Sets
 
 ;; Empty sets

@@ -60,13 +60,13 @@
 
 ;; Clojure also uses boolean operators like "and" "or"
 
+;; and always return the first falsey value else the last truthy value.
 (and "Hello!" "World")
 
-;; and always return the first falsey value else the last truthy value.
-
+;; or always return the first truthy value else the last value.
 (or "Hello" "World")
 
-;; or always return the first truthy value else the last value.
+
 
 ;; to bind a name to value in Clojure we use "def"
 
